@@ -1,0 +1,43 @@
+.page{
+    text-align: center;
+    padding-top: 191px;
+    padding-bottom: 149px;
+    &__title{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 52px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 28px;
+        color: #000000;
+    }
+    &__input{
+        padding: 29px 352px 29px 30px;
+        background-color: #FAFAFA;
+        border: none;
+        border-radius: 5px;
+        &::placeholder{
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #0F0000;
+            opacity: 0.6;
+        }
+    }
+    &__button{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        padding:28px 31px 28px 46px;
+        background-color: #D64374;
+        border: none;
+        border-radius: 5px;
+        color: #FFFFFF;
+    }
+}

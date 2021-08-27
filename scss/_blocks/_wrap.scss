@@ -1,0 +1,43 @@
+.wrap{
+    &__page{
+        background-image: url(../img/ice-cream2.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-top: 142px;
+        padding-bottom: 146px;
+    }
+    &__title{
+        width: 349px;
+        font-family: "Hind Madurai";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44.2px;
+        line-height: 49px;
+        margin: 0;
+        color: #150101;
+    }
+    &__discription{
+        width: 445px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150101;
+        margin-top: 16px;
+        margin-bottom: 30px;
+        opacity: 0.6;
+    }
+    &__button{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: inline-block;
+        color: #FAFAFA;
+        padding: 15px 42px;
+        background: #D64374;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,103 @@
+.order{
+    background-color: #F8EDF0;
+    padding-top: 59px;
+    height: 641px;
+    &__page{
+       
+        display: flex;
+        align-items: center;
+        &::before{
+            content: url(../img/phone.png);
+            margin-right: 134px;
+
+        }
+    }
+    &__title{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 44.2px;
+        line-height: 52px;
+        color: #000000;
+        margin: 0;
+        
+    }
+    &__text{
+        width: 607px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.01em;
+        color: #0F0101;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 29px;
+        opacity: 0.7;
+    }
+    &__sub-text{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+        
+    }
+    &__sub--text-one{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+        margin: 0;
+        &::before{
+            content: url(../img/hand.png);
+            padding: 9px;
+            background-color:#fff;
+            margin-right: 10px;
+            margin-bottom: 15px;
+        }
+        
+    }
+    &__sub--text-two{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+        margin: 0;
+        &::before{
+            content: url(../img/korzinka.png);
+            padding: 9px;
+            background-color:#fff;
+            margin-right: 10px;
+            margin-bottom: 15px;
+        }
+        
+    }
+    &__sub--text-three{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+        margin: 0;
+      
+        &::before{
+            content: url(../img/hand-write.png);
+            padding: 9px;
+            background-color:#fff;
+            margin-right: 10px;
+            margin-bottom: 15px;
+        }
+    }
+    &__imgs{
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,197 @@
+.product{
+    &__title{
+        font-family:"Hind Madurai";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44.2px;
+        line-height: 61px;
+        color: #150101;
+        margin: 0;
+        margin-bottom: 64px;
+        text-align: center;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__item{
+        margin-right: 40px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__link{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 0.6;
+    }
+    &__sub-list{
+        display: flex;
+        flex-direction: column;
+    }
+    &__sub-item{
+        display: flex;
+        align-items: center;
+        &:nth-child(1)::before{
+            content: url(../img/brown-bread.png);
+            margin-right: 85px;
+            border-radius: 10px;
+        }
+        &:nth-child(2){
+            &::after{
+                content: url(../img/chocolate.png);
+                margin-left: 84px;
+                border-radius: 10px;
+            }
+        }
+        &:nth-child(3){
+            &::before{
+                content: url(../img/corn.png);
+                margin-right: 87px;
+                border-radius: 10px;
+            }
+        }
+        &:last-child{
+            &::after{
+                content: url(../img/cream.png);
+                margin-left: 224px;
+                border-radius: 10px;
+            }
+        }
+    }
+    &__sub-title{
+        font-family: "Hind Madurai";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 36px;
+        margin: 0;
+        color: #000000;
+        
+    }
+    &__discription{
+        width: 454px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        margin: 0;
+        margin-top: 11px;
+        margin-bottom: 28px;
+        opacity: 0.7;
+    }
+    &__span{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    &__price{
+        font-family: "Hind Madurai";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 36px;
+        margin: 0;
+        margin-right: 5px;
+        color: #000000;
+    }
+    &__sub-spice{
+        font-family: "Hind Madurai";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        text-decoration:line-through;
+        color: #000000;
+        opacity: 0.7;
+        margin: 0;
+        
+    }
+    &__sub-link{
+        display: inline-block;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        padding: 15px 55px 15px 46px;
+        color: #FAFAFA;
+        background-color: #D64374;
+        border-radius: 5px;
+    }
+    &__all{
+        display: flex;
+        align-items: center;
+        margin-bottom: 46px;
+    }
+    &__sub-all{
+        margin-left: 11px;
+        
+    }
+    &__sub--title{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0;
+        margin-bottom: 5px;
+        color: #000000;
+    }
+    &__text{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin: 0;
+        opacity: 0.7;
+    }
+    &__sub-discription{
+        width: 322px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        margin: 0;
+        opacity: 0.7;
+        &::before{
+            content: url(../img/comma-left.png);
+            margin-right: 12px;
+        }
+        &::after{
+            content: url(../img/comma-right.png);
+            margin-left: 12px;
+        }
+    }
+    &__sub-span{
+        display: flex;
+        align-items: center;
+    }
+    &__left{
+        color: #D64374;
+        margin-right: 27px;
+    }
+    &__right{
+        color: #D64374;
+        margin-left: 27px;
+    }
+    &__img-girl{
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+}
